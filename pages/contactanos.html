@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--BREVE DESSCRIPCION DE LA PAGINA-->
+    <meta name="description" content=" ESTOY EN LA BASURA MáLAGA, como nos podes contactar y encontrar en las Redes ">
+    <!--PALABRAS CLAVE DE LA PAGINA-->
+    <meta name="keyword" content="Málaga, Reducir, reciclar, Reutilizar, Basura, segunda vida,regla de la 3R, 3R, reciclaje, recogida de muebles, Instagram Estoy en la basura Malaga, @estoyenlabasuramalaga, Málaga recicla, Fuengirola, Torremolino, Benalmádena ">
+    <!--conexion Con CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--LINK AL CDN DE BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Contactanos</title>
+</head>
+
+<!--CONTENIDO DE LA PAGINA DONDE TRABAJAREMOS -->
+<body>
+    <header class="header" id="header">
+        <!--ENCABEZADO/MENU DE NAVEGACION-->
+        <nav class="navbar bg-body-tertiary fixed-top ">
+            <div class="container-fluid p-3">
+                <a class="navbar-brand p-1 " href="#">ESTOY EN LA BASURA MáLAGA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+
+                    <div class="offcanvas-header">
+                        <h1 class="offcanvas-title p-3 bg-success" id="offcanvasNavbarLabel">ESTOY EN LA BASURA MáLAGA
+                        </h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+
+                    <div class="offcanvas-body text-success">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item p-3 text-success">
+                                <a href="../index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item p-3 text-success">
+                                <a href="../pages/comoayudar.html">COMO AYUDAR</a>
+                            </li>
+                            <li class="nav-item p-3 text-success">
+                                <a href="../pages/quienessomos.html">QUIENES SOMOS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>            
+        </nav>
+    </header>
+
+
+    <main class="fondocontactanos">
+        <div class="title_contactanos"> 
+            <h1>PONETE EN CONTACTO CON NOSOTROS</h1>
+            <h2>DEJANOS TU MENSAJE</h2>
+        </div>
+        <div class="formulario_contenedor">
+            <form class="formulario2" action="">
+                <fieldset>
+                    <legend>
+                        FORMULARIO DE CONTACTO
+                    </legend>
+                    <div>
+                        <label for="Nombre">NOMBRE Y APELLIDO</label>
+                        <input type="text" name="Nombre">
+                    </div>
+                    <div>
+                        <label for="Email">EMAIL</label>
+                        <input type="email" name="Email" requiered>
+                    </div>
+                    <div>
+                        <label for="Instagram">INSTAGRAM</label>
+                        <input type="Instagram" name="Nombre">
+                    </div>
+                    <div>
+                        <label for="Queres Compartir">Te interesa reciclar algo</label>
+                        <select name="Queres Compartir" id="">
+                            <option value="SI">SI</option>
+                            <option value="NO">NO</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="mensaje"></label>
+                        <textarea class="textarea" name="" id="" cols="30" rows="10"
+                            placeholder="Contanos que queres reciclar"></textarea>
+                    </div>
+                    <div>
+                        <label for="ACEPTACION DE TEMRINOS Y CONDICIONES">Aceptas que nos pongamos en contacto
+                            contigo?</label>
+                        <input type="checkbox" name="acepta" value="1">
+                    </div>
+                    <div class="buton">
+                        <input type="Submit" value="Enviar Mensaje">
+                        <input type="Reset" value="Limpiar Mensaje">
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+
+    <!--PIE DE PAGINA-->
+    <footer class="footer">
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">INICIO</a>
+                </li>
+                <li>
+                    <a href="../pages/comoayudar.html">COMO AYUDAR</a>
+                </li>
+                <li>
+                    <a href="../pages/quienessomos.html">QUIENES SOMOS</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="footer_redes">
+            <h3>Seguinos en Nuestras Redes</h3>
+        </div>
+        <div class="logofooter">
+            <a href="https://instagram.com/estoyenlabasuramalaga?igshid=YmMyMTA2M2Y=" target="valor_blank"> <img
+                    class="instagram" src="../assets/Logoinstagram.jpeg" alt="Logo Instagram"></a>
+        </div>
+    </footer>
+    <!--SCRIP de BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+
+</html>

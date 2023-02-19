@@ -1,0 +1,156 @@
+/*hero index*/
+
+.hero_section{
+    background-color: $bg-color;
+    background-position: center;
+    h1 {
+        color: rgb(227, 171, 49);
+        text-align: center;
+        padding-top: 199px;
+        font-size: 50px;
+    }
+}
+.hero_section p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.fondoindex{
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-image: url(../assets/malaga1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat; 
+    background-position: center;
+
+}
+
+.hero_section1{
+    background-color: rgb(101, 22, 22);
+    background-position: center;
+    h2{
+        color: rgb(188, 234, 234);
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 50px;
+    
+    }
+
+}
+
+
+
+.productosencontrados{
+    background-color: rgb(193, 110, 21);
+    min-height: 100vh;
+    max-height: 100%;
+    padding: 30px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    "area1 area2 area3"
+    "area1 area4 area5"
+    "area1 area4 area6"
+    ;
+    gap: 20px;
+    justify-content: space-evenly;
+
+}
+.producto_1 {
+    @include tamanio(5px, 5px)
+}
+.producto_1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: area1;
+    filter: blur(10px);
+    transition: 0,5s;
+    
+    &:hover{
+        filter:blur(0px)
+    }
+}
+
+
+.producto_2 img{
+    @extend .producto_1;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    grid-area: area2;
+    filter: blur(10px);
+    transition: 0,5s;
+    &:hover{
+        filter:blur(0px)
+
+    }
+}
+
+
+.producto_3 img {
+    @extend .producto_1;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    grid-area: area3;
+    filter: blur(10px);
+    transition: 0,5s;
+
+    &:hover{
+    filter:blur(0px)
+    }
+
+}
+
+
+.producto_4 img{
+    @extend .producto_1;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    grid-area: area4;
+    filter: blur(10px);
+    transition: 0,5s;
+
+    &:hover{
+        filter:blur(0px)
+    }
+}
+
+
+.producto_5 img{
+    @extend .producto_1;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    grid-area: area5;
+    filter: blur(10px);
+    transition: 0,5s;
+            
+    &:hover{
+    filter:blur(0px)
+}
+}
+
+
+.producto_6 img{
+    @extend .producto_1;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    grid-area: area6;
+    filter: blur(10px);
+    transition: 0,5s;
+    
+    &:hover{
+        filter:blur(0px)
+    }
+}

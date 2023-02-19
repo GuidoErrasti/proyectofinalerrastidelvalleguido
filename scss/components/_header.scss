@@ -1,0 +1,37 @@
+/*Header*/
+
+header {
+    background-color: $bg-color;
+    font-family: $font-main;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 1px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(139, 64%, 57%)
+}
+
+nav ul li {
+    font-family: $font-main;
+    font-size: 30px;
+    margin-right: 32px;
+    padding-top: 0px;
+    display: inline-block;
+    padding-bottom: 30px;
+    align-items: center;
+    vertical-align: middle;
+
+
+}
+
+.navSuperior {
+    margin-top: 30px;
+
+}
+

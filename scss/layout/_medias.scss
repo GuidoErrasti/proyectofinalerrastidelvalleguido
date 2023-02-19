@@ -1,0 +1,205 @@
+
+/*MEdia Queries*/
+
+@media only screen and (min-width: 320px) and (max-width:480px) {
+
+    .header{
+        background-color: $bg-color;
+        font-family: $font-main;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size:50%;
+        padding-left: 34px;
+        font-size: 20px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        gap: 10px;
+        display: flex;
+    }
+
+.contenedor{
+    display: flex;
+    flex-flow: row wrap-reverse
+
+}
+
+    .nav ul li{
+        font-family: $font-main;
+        font-size: 20px;
+        margin-right: 38px;
+        margin-top: 100px;
+        padding-top: 30px;
+        display: inline-block;
+        flex-direction: column;
+        gap: 10px;
+        position: center;
+
+    }
+
+    .navSuperior {
+        margin-top: 30px;
+        height: 370px;
+        gap: 10px;
+
+    }
+
+    .imgLogo{
+        height: 120px;
+        width: 264px;
+        position: top;
+    }
+
+    .hero_section h1{
+    padding-top: 170px;
+    font-size: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+    .hero_section p{
+        margin-top: 0px;
+        font-size: 10px;
+        margin-left: 20px;
+        padding-right: 30px;
+        padding-left: 10px;
+
+    
+    }
+
+
+
+
+
+
+#cuartonav{
+border-top: 20px;
+position: sticky;
+top: 2px;
+}
+
+.hero_section1 h2{
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.productosencontrados{
+    grid-template-columns: none;
+    grid-template-areas: none;
+}
+
+/*footer*/
+.footer{
+    font-size: 30px;
+}
+
+.logofooter{
+    padding-right: 80px;
+}
+
+.ulfooter{
+    display: none;
+}
+
+/* pagina CONTACTANOS*/
+.title_contactanos h1 {
+    padding-left: 10px;
+    h2 {
+        padding-left: 30px;
+        }
+    }
+
+.formulario_contenedor{
+    margin: 126px;
+    margin-left: 75px; 
+    background: none;
+}
+
+.formulario2{
+    font-size: 13px;
+    width: 228px;
+    padding-left: 26px;
+}
+
+.navbar a{
+    font-size: 12px;
+}
+
+.textarea{
+    width: 150px;
+}
+
+
+/*QUIENES SOMOS*/
+
+.titulo_quienessomos h1{
+padding-right: 70px;
+}
+    p{
+    padding-left: 20px;
+    padding-right: 30px;
+    text-align: center;
+    background-color: $bg-color ;
+    color: white;
+}
+.ubicacion h2{
+    background-color: black;
+    color: aliceblue;
+}
+.maps{
+    width: 400px;
+    height: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+/*MEDIA QUERIE COMOAYUDAR*/
+.comoayudar_title h1{
+    font-size: 25px;
+    padding-top: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.comoayudar_title p{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 70px;
+    font-size: 15px;
+}
+
+.comoayudartitle {
+font-size: 18px;
+text-align: center;
+padding-bottom: 150px;
+}
+
+
+.etapas{
+    display: grid;
+    background-color: $bg-color;
+    grid-template-columns: 90%;
+    grid-template-areas: 90%;
+    padding-bottom: 350px;
+
+}
+
+
+.etapa_titulo{
+    padding-left: 50px;
+    padding-bottom: 10px;
+    h2{
+        font-size: 40px;
+        padding-left: 10px;
+    }
+    p{
+        padding-left: 50px;
+    }
+}
+
+.etapa_titulo img{
+    padding-left: 50px;
+}
+
+}

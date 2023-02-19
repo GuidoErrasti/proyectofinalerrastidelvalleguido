@@ -1,0 +1,21 @@
+//import de los partials
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/mixin";
+@import "./base/extend";
+
+//components
+@import "./components/footer";
+@import "./components/header";
+@import "./components/hero";
+
+
+//Layout
+@import "./layout/comoayudar";
+@import "./layout/contactanos";
+@import "./layout/index";
+@import "./layout/quienessomos";
+@import "./layout/medias";
+
+
+
